@@ -227,7 +227,7 @@ def make_prediction(input_json, uploaded_images, level_bin):
 
 # Streamlit app
 def main():
-    st.title("Multimodal Model Prediction")
+    st.title("Complexity Prediction")
     
     # Input: JSON for the level
     input_json = st.text_area("Enter JSON for the level:", height=300)
