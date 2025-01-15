@@ -14,11 +14,11 @@ import joblib
 
 
 # Define the feature extraction and model classes (same as you provided)
-PATH_TO_MODEL = "C:/Users/nivl/Documents/Python/Projects/Complexity_prediction/streamlit/saved_models/best_model_val_loss_1.9360.pth"
+PATH_TO_MODEL = "models/best_model_val_loss_1.9360.pth"
 
 
 # Load the saved scaler
-scaler = joblib.load('C:/Users/nivl/Documents/Python/Projects/Complexity_prediction/streamlit/saved_models/scaler.pkl')
+scaler = joblib.load('models/scaler.pkl')
 
 # Example of how to normalize the user-provided tabular features
 def normalize_tabular_data(features):
